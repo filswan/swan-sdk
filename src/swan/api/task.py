@@ -2,14 +2,14 @@
 import logging
 import requests
 from typing import Dict, Any
-from src.constants.constants import SWAN_API, TASK_BIDDING
-from src.exceptions.request_exceptions import (
+from src.swan.constants.constants import SWAN_API, TASK_BIDDING
+from src.swan.exceptions.request_exceptions import (
     SwanRequestError,
     SwanTimeoutError,
     SwanConnectionError,
     SwanHTTPError,
 )
-from src.exceptions.task_exceptions import SwanTaskInvalidInputError
+from src.swan.exceptions.task_exceptions import SwanTaskInvalidInputError
 
 
 def get_task_bidding(task_id) -> Dict[str, Any]:

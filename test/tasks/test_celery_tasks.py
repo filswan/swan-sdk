@@ -1,7 +1,7 @@
 """Tests for Mock Celery Task. """
 from mock.mock import MagicMock
 
-from src.api.engine_api import EngineAPI
+from src.swan.api.engine_api import EngineAPI
 from test.mock.client_mock import MockAPIClient
 
 

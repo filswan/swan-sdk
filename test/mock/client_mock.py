@@ -1,5 +1,5 @@
 """ Mock client"""
-from src.constants.constants import PROCESSING_TASKS, CELERY
+from src.swan.constants.constants import PROCESSING_TASKS, CELERY
 
 
 class MockAPIClient:

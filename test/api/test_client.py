@@ -1,6 +1,6 @@
 """Tests for APIClient class. """
-from src.api_client import APIClient
-from src.constants.constants import SWAN_API, GET
+from src.swan.api_client import APIClient
+from src.swan.constants.constants import SWAN_API, GET
 
 
 class TestAPIClient:

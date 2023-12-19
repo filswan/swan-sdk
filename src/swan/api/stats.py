@@ -3,8 +3,8 @@
 
 import logging
 import requests
-from src.constants.constants import SWAN_API, STATS_GENERAL
-from src.exceptions.request_exceptions import (
+from src.swan.constants.constants import SWAN_API, STATS_GENERAL
+from src.swan.exceptions.request_exceptions import (
     SwanHTTPError,
     SwanConnectionError,
     SwanTimeoutError,

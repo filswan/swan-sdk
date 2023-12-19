@@ -1,6 +1,6 @@
 """ Token API tests """
 from mock.mock import patch
-from src.api.token import validate_token
+from src.swan.api.token import validate_token
 
 
 class TestToken:

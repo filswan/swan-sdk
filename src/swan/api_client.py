@@ -4,7 +4,7 @@ import requests
 import json
 import logging
 
-from src.constants.constants import (
+from src.swan.constants.constants import (
     AUCTION_API,
     POST,
     APIKEY_LOGIN,

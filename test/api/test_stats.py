@@ -1,7 +1,7 @@
 import requests
 from mock.mock import Mock, MagicMock, patch
 
-from src.api.stats import get_general_stats
+from src.swan.api.stats import get_general_stats
 
 
 class TestStats:

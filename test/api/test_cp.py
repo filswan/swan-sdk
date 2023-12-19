@@ -3,8 +3,8 @@
 import pytest
 import requests
 from mock.mock import Mock, MagicMock, patch
-from src.api.cp import get_all_cp_machines
-from src.exceptions.request_exceptions import SwanHTTPError, SwanRequestError
+from src.swan.api.cp import get_all_cp_machines
+from src.swan.exceptions.request_exceptions import SwanHTTPError, SwanRequestError
 
 
 class TestComputingProviders:

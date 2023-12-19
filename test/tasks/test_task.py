@@ -2,8 +2,8 @@
 
 import pytest
 from mock.mock import patch, Mock
-from src.api.task import get_task_bidding
-from src.exceptions.task_exceptions import SwanTaskInvalidInputError
+from src.swan.api.task import get_task_bidding
+from src.swan.exceptions.task_exceptions import SwanTaskInvalidInputError
 
 
 class TestTask:

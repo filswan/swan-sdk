@@ -3,8 +3,8 @@
 import logging
 import requests
 from typing import List, Dict, Any
-from src.constants.constants import SWAN_API, ALL_CP_MACHINE
-from src.exceptions.request_exceptions import SwanHTTPError, SwanRequestError
+from src.swan.constants.constants import SWAN_API, ALL_CP_MACHINE
+from src.swan.exceptions.request_exceptions import SwanHTTPError, SwanRequestError
 
 
 def get_all_cp_machines() -> List[Dict[str, Any]]:

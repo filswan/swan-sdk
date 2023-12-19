@@ -1,14 +1,14 @@
 """ Token Related functionalities"""
 
 import requests
-from src.constants.constants import SWAN_API, TOKEN_VALIDATION
-from src.exceptions.request_exceptions import (
+from src.swan.constants.constants import SWAN_API, TOKEN_VALIDATION
+from src.swan.exceptions.request_exceptions import (
     SwanHTTPError,
     SwanConnectionError,
     SwanTimeoutError,
     SwanRequestError,
 )
-from src.exceptions.task_exceptions import SwanTaskInvalidInputError
+from src.swan.exceptions.task_exceptions import SwanTaskInvalidInputError
 
 
 def validate_token(token):

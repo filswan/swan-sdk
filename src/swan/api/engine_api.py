@@ -2,8 +2,8 @@
 
 import logging
 
-from src.api_client import APIClient
-from src.constants.constants import PROCESSING_TASKS, GET, POST, JOBS, CELERY
+from src.swan.api_client import APIClient
+from src.swan.constants.constants import PROCESSING_TASKS, GET, POST, JOBS, CELERY
 
 
 class EngineAPI(object):
